@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 4px solid black;
+    min-height: 200px;
+}
+
+header {
+    border: 4px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h1 {
+    border: 4px solid black;
+    padding: 10px;
+}
+
+nav {
+    border: 4px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.q, .w, .e {
+    border: 4px solid black;
+    padding: 10px;
+}
